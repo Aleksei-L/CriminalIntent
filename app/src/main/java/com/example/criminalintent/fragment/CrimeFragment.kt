@@ -61,10 +61,5 @@ class CrimeFragment : Fragment() {
 		solvedCheckBox.setOnClickListener {
 			crime.isSolved = it.isEnabled
 		}
-//		solvedCheckBox.apply {
-//			setOnCheckedChangeListener { _, isChecked ->
-//				crime.isSolved = isChecked
-//			}
-//		}
 	}
 }
